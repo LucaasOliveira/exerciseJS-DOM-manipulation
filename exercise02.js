@@ -6,12 +6,9 @@ adicionado uma imagem qualquer na tela. */
 
 let image = true;
 
-let btnTwo = document.querySelector("#btnTwo");
-btnTwo.addEventListener("click", (event) => {
+let btn = document.querySelector("#btn");
+btn.addEventListener("click", addImagem);
 
-    addImagem();
-
-});
 function addImagem() {
 
     if (image) {

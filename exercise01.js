@@ -4,11 +4,7 @@ função addConteudo() que deve ser vinculado ao onclick do botão.
 Ao clicar no botão adicionar na div o texto “Olá Mundo”. */
 
 let btn = document.querySelector("button");
-btn.addEventListener("click", (event) => {
-
-    addConteudo();
-
-});
+btn.addEventListener("click", addConteudo);
 
 function addConteudo() {
     const div = document.querySelector("#content");
